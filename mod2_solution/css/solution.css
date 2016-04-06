@@ -44,39 +44,33 @@ p {
 div {
   margin: 0px;
   padding: 0px;
+  width: 100%;
 }
 
 
-  /* desktop*/
-  @media (min-width: 992px) {
+
+@media(min-width: 992px){
     .col-de-4{
       width: 33%;
       float: left;
-
     }
-
   }
 
-  /* Tablet */
-  @media (min-width: 768px) and (max-width: 991px) {
+
+@media(min-width: 768px) and (max-width: 991px){
     .col-ta-6 {
       width: 50%;
       float: left;
-
-
     }
     .col-ta-12 {
       width: 100%;
       float: left;
     }
-
   }
 
-  /* mobile */
-  @media (max-width: 767px) {
-    .col-mo-12{
-      width: 100%;
-      float: left;
-
+@media(max-width: 767px){
+      .col-mb-12 {
+        width: 100%;
+        float: left;
+      }
     }
-  }
