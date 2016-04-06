@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #E9967A;
+}
+
+h1 {
+  font-family: cursive, fantasy, monospace;
+  text-align: center;
+}
+
+h2 {
+  float:right;
+  width: 30%;
+  text-align: center;
+  border: 1px solid black;
+  font-family: fantasy, cursive;
+}
+
+#fish {
+  background-color: #5F9EA0;
+}
+#cake {
+  background-color: #FF1493;
+}
+#shusi {
+  background-color: #40E0D0;
+}
+
+p {
+  background-color: #FFEFD5;
+  font-family: monospace,serif;
+  font-size: 1.25em;
+  padding: 20px;
+  margin-left: 10px;
+
+  border: 1px solid black;
+  float:top;
+
+}
+div {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+  /* desktop*/
+  @media (min-width: 992px) {
+    .col-de-4{
+      width: 33%;
+      float: left;
+
+    }
+
+  }
+
+  /* Tablet */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-ta-6 {
+      width: 50%;
+      float: left;
+
+
+    }
+    .col-ta-12 {
+      width: 100%;
+      float: left;
+    }
+
+  }
+
+  /* mobile */
+  @media (max-width: 767px) {
+    .col-mo-12{
+      width: 100%;
+      float: left;
+
+    }
+  }
